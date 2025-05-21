@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rogue Photon Dev Log</title>
+    <link>https://roguephoton.com/</link>
+    <description>Recent content on Rogue Photon Dev Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sample custom notice © {year}</copyright>
+    <lastBuildDate>Wed, 21 May 2025 17:26:03 +0200</lastBuildDate>
+    <atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://roguephoton.com/posts/first-post/</link>
+      <pubDate>Wed, 21 May 2025 17:26:03 +0200</pubDate>
+      <guid>https://roguephoton.com/posts/first-post/</guid>
+      <description>Hello This is my first post! I&amp;rsquo;ve been working on a number of games but finally I was able to focus on a single idea for long enough that it has become more serious. It&amp;rsquo;s a RTS type of game with a major focus on rolling the dice. No title yet. I will update on more detail in upcoming updates.</description>
+    </item>
+  </channel>
+</rss>
