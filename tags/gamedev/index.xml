@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gamedev on Rogue Photon Studio</title>
+    <link>https://roguephoton.com/tags/gamedev/</link>
+    <description>Recent content in gamedev on Rogue Photon Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sample custom notice © {year}</copyright>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://roguephoton.com/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New update</title>
+      <link>https://roguephoton.com/posts/test-post/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://roguephoton.com/posts/test-post/</guid>
+      <description>This is a summary of the post.</description>
+    </item>
+  </channel>
+</rss>

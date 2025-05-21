@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rogue Photon Studio</title>
-    <link>https://roguephoton.com/</link>
-    <description>Recent content on Rogue Photon Studio</description>
+    <title>Posts on Rogue Photon Studio</title>
+    <link>https://roguephoton.com/posts/</link>
+    <description>Recent content in Posts on Rogue Photon Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sample custom notice © {year}</copyright>
     <lastBuildDate>Wed, 21 May 2025 17:26:03 +0200</lastBuildDate>
-    <atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://roguephoton.com/about/</link>
-      <pubDate>Wed, 21 May 2025 18:30:40 +0200</pubDate>
-      <guid>https://roguephoton.com/about/</guid>
-      <description>Solo game developer. I am making games in my free time. Write my own code. Make my own music. Make my own models. Degree in physics. Made with Unity.</description>
-    </item>
+    <atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://roguephoton.com/posts/first-post/</link>
