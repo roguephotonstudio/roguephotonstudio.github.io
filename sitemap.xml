@@ -2,30 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://roguephoton.com/posts/die-commander/</loc>
+    <lastmod>2025-05-24T18:09:33+02:00</lastmod>
+  </url><url>
+    <loc>https://roguephoton.com/posts/</loc>
+    <lastmod>2025-05-24T18:09:33+02:00</lastmod>
+  </url><url>
+    <loc>https://roguephoton.com/</loc>
+    <lastmod>2025-05-24T18:09:33+02:00</lastmod>
+  </url><url>
     <loc>https://roguephoton.com/about/</loc>
     <lastmod>2025-05-21T18:30:40+02:00</lastmod>
   </url><url>
-    <loc>https://roguephoton.com/posts/first-post/</loc>
-    <lastmod>2025-05-21T17:26:03+02:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/posts/</loc>
-    <lastmod>2025-05-21T17:26:03+02:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/</loc>
-    <lastmod>2025-05-21T17:26:03+02:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/tags/gamedev/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/tags/gaming/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/posts/test-post/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+    <loc>https://roguephoton.com/categories/</loc>
   </url><url>
     <loc>https://roguephoton.com/tags/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://roguephoton.com/categories/</loc>
   </url>
 </urlset>

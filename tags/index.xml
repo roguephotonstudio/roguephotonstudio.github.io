@@ -5,29 +5,6 @@
     <link>https://roguephoton.com/tags/</link>
     <description>Recent content in Tags on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://roguephoton.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>gamedev</title>
-      <link>https://roguephoton.com/tags/gamedev/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://roguephoton.com/tags/gamedev/</guid>
-      
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>gaming</title>
-      <link>https://roguephoton.com/tags/gaming/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://roguephoton.com/tags/gaming/</guid>
-      
-      <description></description>
-      
-    </item>
-    
+    <language>en-gb</language><atom:link href="https://roguephoton.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
