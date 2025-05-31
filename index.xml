@@ -6,7 +6,21 @@
     <description>Recent content on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 May 2025 18:09:33 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 May 2025 21:22:27 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pathfinding Update</title>
+      <link>https://roguephoton.com/posts/pathfinding-update/</link>
+      <pubDate>Sat, 31 May 2025 21:22:27 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/pathfinding-update/</guid>
+      
+      <description>Core RTS features I&amp;rsquo;m sharing progress related to most essential RTS features:
+Unit selection Unit movement Physics interaction Your browser does not support the video tag. As shown in the video - the units can choose the correct path to their destination.
+Challanges Already at this stage due to the unique idea of relying on physics for unit movement I had to solve some issues:
+[problem] The units are terribly slow if using only torque for movement.</description>
+      
+    </item>
+    
     <item>
       <title>Die Commander Introductions</title>
       <link>https://roguephoton.com/posts/die-commander/</link>
