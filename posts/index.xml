@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 31 May 2025 21:22:27 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2025 21:30:25 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combat Update</title>
+      <link>https://roguephoton.com/posts/combat-update/</link>
+      <pubDate>Tue, 10 Jun 2025 21:30:25 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/combat-update/</guid>
+      
+      <description>Base functionality I&amp;rsquo;m happy to announce that the combat system is now functional.
+Units can deal damage Units can take damage In other words: a die may die&amp;hellip; [I&amp;rsquo;ll let myself out] Your browser does not support the video tag. Your browser does not support the video tag. No health bars or visual effects yet just destroying the unit after it dies. Left the blue path indicators and white placeholder effect for attacks (to at least see the attack rate).</description>
+      
+    </item>
+    
     <item>
       <title>Pathfinding Update</title>
       <link>https://roguephoton.com/posts/pathfinding-update/</link>
