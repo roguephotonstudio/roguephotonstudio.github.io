@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 10 Jun 2025 21:30:25 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 16:17:29 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources Update</title>
+      <link>https://roguephoton.com/posts/resources-update/</link>
+      <pubDate>Sun, 15 Jun 2025 16:17:29 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/resources-update/</guid>
+      
+      <description>Core functionality After countless hours of hard work and coffees drunk I finally managed to get the gathering-depositing cycle to work.
+Worker unit type. &amp;ldquo;Gatherable&amp;rdquo; resources (currently only &amp;ldquo;gold&amp;rdquo; as a placeholder resource type). Worker unit specific actions: Gathering resources Depositing resources Remembering where the base and the mine are High IQ worker brain allowing workers to remember the whole gather-deposit cycle. &amp;ldquo;Sidequest&amp;rdquo; basic UI system to show available &amp;ldquo;gold&amp;rdquo; and verify that it&amp;rsquo;s getting deposited.</description>
+      
+    </item>
+    
     <item>
       <title>Combat Update</title>
       <link>https://roguephoton.com/posts/combat-update/</link>
