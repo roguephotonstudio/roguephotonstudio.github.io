@@ -6,7 +6,20 @@
     <description>Recent content on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 15 Jun 2025 16:17:29 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 22:49:43 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unit Production</title>
+      <link>https://roguephoton.com/posts/unit-production/</link>
+      <pubDate>Sat, 28 Jun 2025 22:49:43 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/unit-production/</guid>
+      
+      <description>Unit production update I&amp;rsquo;ve made some serious progress on the core gameplay systems of Die Commander, and today I’m excited to share the first working version of unit production—a system that brings life, growth, and strategic depth to your ever-evolving armies of dice.
+As a reminder, in this game, dice are your units. Each die represents a different unit tier, currently including:
+D4 (worker class) D6 D8 D10 D12 Due to a mix of time constraints (making building models take time!</description>
+      
+    </item>
+    
     <item>
       <title>Resources Update</title>
       <link>https://roguephoton.com/posts/resources-update/</link>
