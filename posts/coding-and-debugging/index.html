@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Coding and Debugging | Rogue Photon</title>
+<meta property="og:title" content="Coding and Debugging | Rogue Photon" />
+<meta name="twitter:title" content="Coding and Debugging | Rogue Photon" />
+<meta itemprop="name" content="Coding and Debugging | Rogue Photon" />
+<meta name="application-name" content="Coding and Debugging | Rogue Photon" />
+<meta property="og:site_name" content="Rogue Photon" />
+
+<meta name="description" content="Updates and info about my game development.">
+<meta itemprop="description" content="Updates and info about my game development." />
+<meta property="og:description" content="Updates and info about my game development." />
+<meta name="twitter:description" content="Updates and info about my game development." />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2025-07-26T13:34:43&#43;0200 />
+    <meta property="article:published_time" content=2025-07-26T13:34:43&#43;0200 />
+    <meta property="og:url" content="https://roguephoton.com/posts/coding-and-debugging/" />
+
+    
+    <meta property="og:article:author" content="Bosonic Cloud" />
+    <meta property="article:author" content="Bosonic Cloud" />
+    <meta name="author" content="Bosonic Cloud" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Coding and Debugging",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2025-07-26",
+        "description": "",
+        "wordCount":  638 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2025-07-26",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Rogue Photon"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.121.2">
+
+    
+    <meta property="og:title" content="Coding and Debugging" />
+<meta property="og:description" content="This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&rsquo;s not much new to show visually.
+UI Planning (And Reworking Camera Controls) My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &ldquo;produce unit&rdquo; button — which worked fine for a time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://roguephoton.com/posts/coding-and-debugging/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-07-26T13:34:43+02:00" />
+<meta property="article:modified_time" content="2025-07-26T13:34:43+02:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Coding and Debugging"/>
+<meta name="twitter:description" content="This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&rsquo;s not much new to show visually.
+UI Planning (And Reworking Camera Controls) My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &ldquo;produce unit&rdquo; button — which worked fine for a time."/>
+
+
+    
+
+    <link rel="canonical" href="https://roguephoton.com/posts/coding-and-debugging/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+<link rel="manifest" href="https://roguephoton.com/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    
+    
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://roguephoton.com/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Coding and Debugging</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-07-26T13:34:43&#43;02:00" itemprop="datePublished"> 26 Jul 2025 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ui-planning-and-reworking-camera-controls">UI Planning (And Reworking Camera Controls)</a>
+      <ul>
+        <li><a href="#fix-switched-to-edge-scrolling">Fix: Switched to Edge Scrolling</a></li>
+      </ul>
+    </li>
+    <li><a href="#refactoring-the-select-manager">Refactoring the Select Manager</a></li>
+    <li><a href="#combat-bug-workers-were-ignoring-orders">Combat Bug: Workers Were Ignoring Orders</a>
+      <ul>
+        <li><a href="#fixes">Fixes:</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-case-of-the-disappearing-units">The Case of the Disappearing Units</a>
+      <ul>
+        <li><a href="#fix">Fix:</a></li>
+      </ul>
+    </li>
+    <li><a href="#performance-gains-but-nothing-to-show">Performance Gains (But Nothing to Show)</a></li>
+    <li><a href="#tldr">TL;DR</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <p>This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&rsquo;s not much new to <em>show</em> visually.</p>
+<h2 id="ui-planning-and-reworking-camera-controls">UI Planning (And Reworking Camera Controls)</h2>
+<p>My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &ldquo;produce unit&rdquo; button — which worked fine for a time.</p>
+<p>My next goal was to implement command buttons when units are selected: <strong>Move</strong>, <strong>Attack-Move</strong>, <strong>Stop</strong>, and <strong>Hold Position</strong>. But right away I hit a problem: my current camera controls use the <strong>WASD</strong> keys — which conflicted with the typical <strong>QWEASD</strong> layout I had in mind for unit commands.</p>
+<h3 id="fix-switched-to-edge-scrolling">Fix: Switched to Edge Scrolling</h3>
+<p>Before I could do anything UI-related, I had to swap keyboard navigation for edge-scrolling, which also opens the door for camera hotkeys in the future. It wasn’t planned, but necessary and didn&rsquo;t want to postpone it.</p>
+<h2 id="refactoring-the-select-manager">Refactoring the Select Manager</h2>
+<p>During this process, I realized that my <code>SelectManager</code> was handling <strong>both</strong> unit selection <strong>and</strong> command issuing (which included unit production). That was a code I wrote for testing and I never had time to do it right. I decided to decouple these responsibilities using an interface for special commands.</p>
+<p>This led to a broader refactor where I:</p>
+<ul>
+<li>Changed <code>SelectManager</code> to broadcast selection changes via an event (observer pattern)</li>
+<li>Allowed other UI systems to simply <strong>listen</strong> to selection updates</li>
+<li>Re-routed unit production so the <strong>Production UI</strong> notifies the <code>FactionManager</code>, which then forwards signals to the correct <code>ProductionManager</code> based on selected units</li>
+</ul>
+<p>This cleanup gives me much more flexibility and should reduce bugs in the long run — even if it ate a few days of dev time.</p>
+<h2 id="combat-bug-workers-were-ignoring-orders">Combat Bug: Workers Were Ignoring Orders</h2>
+<p>While testing the new command system, I found that <strong>worker units weren’t entering combat</strong> when issued an <code>attack-move</code> command.</p>
+<p>Some workers would just walk past enemies. Others switched to “move” instead of “attack-move.” Here’s what I discovered:</p>
+<ul>
+<li>The command was being applied per unit in a loop, but inconsistently</li>
+<li>The worker’s FSM (finite state machine) was immediately switching to its resource-gathering state, even during combat</li>
+</ul>
+<h3 id="fixes">Fixes:</h3>
+<ul>
+<li>Adjusted command dispatch logic so it treats all selected units consistently</li>
+<li>Updated the worker FSM to make combat a priority if the worker is already in combat; otherwise it should be ok that worker will gather resources even when attacked</li>
+</ul>
+<p>It took some time, but worker combat now works as expected again.</p>
+<h2 id="the-case-of-the-disappearing-units">The Case of the Disappearing Units</h2>
+<p>During mass production testing, I noticed some units were spawning <strong>under the ground</strong> and falling endlessly.</p>
+<p>Turns out instantiating hundreds of game objects in a single frame causes all sorts of problems.</p>
+<h3 id="fix">Fix:</h3>
+<ul>
+<li>Limited instantiating to a single unit per frame (could be visually noticable but probably I will add some randomness to production time anyway)</li>
+<li>Double checking unit spawn position; if the unit is too close to the ground it gets moved up before activation</li>
+</ul>
+<h2 id="performance-gains-but-nothing-to-show">Performance Gains (But Nothing to Show)</h2>
+<p>All these improvements (especially the event-based selection system) improved performance quite a bit — especially when controlling 100+ units. But since I haven&rsquo;t shown videos with more than ~20 units yet, and because videos are recorded at fixed framerates, the gains aren’t something I can easily show.</p>
+<p>Still, it feels good to know the engine is becoming more robust under the hood. Also adding new features should be less time consuming from now on.</p>
+<h2 id="tldr">TL;DR</h2>
+<ul>
+<li>Switched from keyboard map movement to edge scrolling</li>
+<li>Refactored selection/command systems using observer pattern</li>
+<li>Fixed worker combat bugs in FSM logic</li>
+<li>Patched unit spawning to prevent falling through the ground</li>
+<li>Improved performance at scale (even if it&rsquo;s not visible yet)</li>
+</ul>
+<p>Nothing flashy to show but I&rsquo;m satisfied with overall progress.</p>
+<p>Until next time!</p>
+
+            </div>
+        </article></main>
+</div>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C5ZK4Z9M8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5C5ZK4Z9M8');
+</script>
+
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://roguephoton.com/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>
