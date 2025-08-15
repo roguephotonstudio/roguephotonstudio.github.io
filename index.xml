@@ -6,7 +6,20 @@
     <description>Recent content on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 26 Jul 2025 13:34:43 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 14:10:43 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimisation, New Commands, Win Condition</title>
+      <link>https://roguephoton.com/posts/core-rts-features/</link>
+      <pubDate>Fri, 15 Aug 2025 14:10:43 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/core-rts-features/</guid>
+      
+      <description>Recen work on the &amp;ldquo;Die Commander&amp;rdquo; was a mix of performance upgrades, UI improvements, and core gameplay systems.
+Some of it makes the game run smoother, some of it adds polish for the player — and some of it involved tearing down half the codebase and putting it back together again.
+Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops.</description>
+      
+    </item>
+    
     <item>
       <title>Coding and Debugging</title>
       <link>https://roguephoton.com/posts/coding-and-debugging/</link>
