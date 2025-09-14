@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 15 Aug 2025 14:10:43 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 14:33:52 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fog of War, Minimap, and First Enemy AI Prototype</title>
+      <link>https://roguephoton.com/posts/fow-minimap-ai/</link>
+      <pubDate>Sun, 14 Sep 2025 14:33:52 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/fow-minimap-ai/</guid>
+      
+      <description>This devlog is a big milestone for my dice-based RTS project: adding Fog of War, a minimap, and the very first version of an Enemy AI. These features finally make the game feel like a “real” RTS in motion.
+Fog of War I&amp;rsquo;ve use an existing implementation of Fog of War system. Areas of the map that are not in the line of sight of your units are darkened. This implementation allows for obstacles to block the line of sight (not sure if this will stay in the final version).</description>
+      
+    </item>
+    
     <item>
       <title>Optimisation, New Commands, Win Condition</title>
       <link>https://roguephoton.com/posts/core-rts-features/</link>
