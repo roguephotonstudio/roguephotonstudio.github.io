@@ -6,7 +6,19 @@
     <description>Recent content on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 14 Sep 2025 14:33:52 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Oct 2025 14:55:37 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Tree Upgrades</title>
+      <link>https://roguephoton.com/posts/tech-tree-upgrades/</link>
+      <pubDate>Thu, 09 Oct 2025 14:55:37 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/tech-tree-upgrades/</guid>
+      
+      <description>This update marks a big step for the &amp;ldquo;Die Commander&amp;rdquo;: the foundation of the tech tree is finally in place. Research, fusion and upgrades are now connected, the strategic layer of the game is starting to take shape.
+Fusion A new fusion system lets you combine dice into more specialized units. By fusing a D4 and D6, you can create a D5 Researcher, a new type of unit that can unlock small set of upgrades.</description>
+      
+    </item>
+    
     <item>
       <title>Fog of War, Minimap, and First Enemy AI Prototype</title>
       <link>https://roguephoton.com/posts/fow-minimap-ai/</link>
