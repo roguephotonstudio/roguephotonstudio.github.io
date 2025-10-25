@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 09 Oct 2025 14:55:37 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Oct 2025 21:10:49 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cluster Combat and Visual Feedback</title>
+      <link>https://roguephoton.com/posts/cluster-combat-plus/</link>
+      <pubDate>Sat, 25 Oct 2025 21:10:49 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/cluster-combat-plus/</guid>
+      
+      <description>First weeks on the &amp;ldquo;polish phase&amp;rdquo; I focused on making combat more readable and adding more life to the battlefield. There’s also a major new system - cluster combat - that changes how engagements play out.
+Destruction Effects When a die takes lethal damage, it now shatters into smaller fragments. In fact all models have their own set of fragments so the shattering in slow motion looks exactly like a dice falling apart.</description>
+      
+    </item>
+    
     <item>
       <title>Tech Tree Upgrades</title>
       <link>https://roguephoton.com/posts/tech-tree-upgrades/</link>
