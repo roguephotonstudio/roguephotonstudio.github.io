@@ -18,6 +18,8 @@
 <meta property="og:locale" content="en-gb" />
 <meta name="language" content="en-gb" />
 
+  <link rel="alternate" hreflang="en-gb" href="https://roguephoton.com/posts/core-rts-features/" title="English" />
+
 
 
 
@@ -66,25 +68,29 @@
     </script>
 
 
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.126.2">
 
     
-    <meta property="og:title" content="Optimisation, New Commands, Win Condition" />
-<meta property="og:description" content="Recen work on the &ldquo;Die Commander&rdquo; was a mix of performance upgrades, UI improvements, and core gameplay systems.
+    <meta property="og:url" content="https://roguephoton.com/posts/core-rts-features/">
+  <meta property="og:site_name" content="Rogue Photon">
+  <meta property="og:title" content="Optimisation, New Commands, Win Condition">
+  <meta property="og:description" content="Recen work on the “Die Commander” was a mix of performance upgrades, UI improvements, and core gameplay systems.
 Some of it makes the game run smoother, some of it adds polish for the player — and some of it involved tearing down half the codebase and putting it back together again.
-Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://roguephoton.com/posts/core-rts-features/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-08-15T14:10:43+02:00" />
-<meta property="article:modified_time" content="2025-08-15T14:10:43+02:00" />
-
+Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-15T14:10:43+02:00">
+    <meta property="article:modified_time" content="2025-08-15T14:10:43+02:00">
 
 
     
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Optimisation, New Commands, Win Condition"/>
-<meta name="twitter:description" content="Recen work on the &ldquo;Die Commander&rdquo; was a mix of performance upgrades, UI improvements, and core gameplay systems.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Optimisation, New Commands, Win Condition">
+  <meta name="twitter:description" content="Recen work on the “Die Commander” was a mix of performance upgrades, UI improvements, and core gameplay systems.
 Some of it makes the game run smoother, some of it adds polish for the player — and some of it involved tearing down half the codebase and putting it back together again.
-Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops."/>
+Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops.">
 
 
     
@@ -115,6 +121,9 @@ Pathfinding Optimisation When controlling a lot of units, my old pathfinding app
 
     
     
+  
+
+
     
 
     
@@ -269,7 +278,7 @@ Now, units request path calculations <strong>one at a time</strong>, distributin
 </ul>
 <p>It is essential to see the composition of your army at a glance as new units production relies entirely on existing units.</p>
 <figure><img src="/images/selection-ui.png"
-         alt="New unit selection UI"/>
+    alt="New unit selection UI">
 </figure>
 
 <h2 id="core-game-state-manager">Core Game State Manager</h2>
