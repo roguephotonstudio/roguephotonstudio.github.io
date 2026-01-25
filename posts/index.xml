@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Nov 2025 19:48:09 +0100</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jan 2026 16:14:49 +0100</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tornadoes, Production VFX, and a Long-Overdue Update</title>
+      <link>https://roguephoton.com/posts/aoe-vfx-update/</link>
+      <pubDate>Sun, 25 Jan 2026 16:14:49 +0100</pubDate>
+      
+      <guid>https://roguephoton.com/posts/aoe-vfx-update/</guid>
+      
+      <description>It’s been a while since the last dev log update. Over the past couple of months, development continued steadily, but most of the work landed in areas that didn’t immediately translate into neat, post-sized milestones. This update is a good moment to summarize where things stand.
+The focus this time was on production feedback, visual polish, and introducing the first active AoE ability.
+Production Feedback &amp;amp; VFX Unit production now has dedicated visual effects, making it clearer which unit is being created when production starts.</description>
+      
+    </item>
+    
     <item>
       <title>Refining Cluster Combat</title>
       <link>https://roguephoton.com/posts/refining-cluster-combat/</link>
