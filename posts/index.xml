@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 25 Jan 2026 16:14:49 +0100</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2026 20:35:31 +0100</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrade System</title>
+      <link>https://roguephoton.com/posts/upgrade-system/</link>
+      <pubDate>Mon, 23 Mar 2026 20:35:31 +0100</pubDate>
+      
+      <guid>https://roguephoton.com/posts/upgrade-system/</guid>
+      
+      <description>Upgrades System Is Ready This update focuses on a core feature that has been still missing: a proper upgrade system that connects research units with the rest of the army in a clear and scalable way.
+Along the way, I also added a couple of core upgrades and continued stabilizing the cluster combat system.
+Upgrade System Design The upgrade system is now fully implemented, with a structure built around specialist upgrader units.</description>
+      
+    </item>
+    
     <item>
       <title>Tornadoes, Production VFX, and a Long-Overdue Update</title>
       <link>https://roguephoton.com/posts/aoe-vfx-update/</link>
