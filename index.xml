@@ -6,7 +6,41 @@
     <description>Recent content on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Mar 2026 20:35:31 +0100</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2026 18:52:09 +0200</lastBuildDate><atom:link href="https://roguephoton.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile Bases &amp; Balance Update</title>
+      <link>https://roguephoton.com/posts/mobile-bases/</link>
+      <pubDate>Mon, 04 May 2026 18:52:09 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/mobile-bases/</guid>
+      
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;h1 id=&#34;balancing-gameplay-and-going-fully-mobile&#34;&gt;Balancing Gameplay and Going Fully Mobile&lt;/h1&gt;
+&lt;p&gt;This update touches two foundational areas of the game:
+combat scaling and the economy structure.&lt;/p&gt;
+&lt;p&gt;Both have been reworked to better support the core idea of merging dice into stronger units without breaking balance or creating &amp;ldquo;broken&amp;rdquo; strategies.&lt;/p&gt;
+&lt;h2 id=&#34;multi-slot-attacks-fixing-scaling&#34;&gt;Multi-Slot Attacks (Fixing Scaling)&lt;/h2&gt;
+&lt;p&gt;One issue that became increasingly obvious was how poorly higher-tier units scaled.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Upgrade System</title>
       <link>https://roguephoton.com/posts/upgrade-system/</link>
@@ -14,9 +48,28 @@
       
       <guid>https://roguephoton.com/posts/upgrade-system/</guid>
       
-      <description>Upgrades System Is Ready This update focuses on a core feature that has been still missing: a proper upgrade system that connects research units with the rest of the army in a clear and scalable way.
-Along the way, I also added a couple of core upgrades and continued stabilizing the cluster combat system.
-Upgrade System Design The upgrade system is now fully implemented, with a structure built around specialist upgrader units.</description>
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;h1 id=&#34;upgrades-system-is-ready&#34;&gt;Upgrades System Is Ready&lt;/h1&gt;
+&lt;p&gt;This update focuses on a core feature that has been still missing: a proper upgrade system
+that connects research units with the rest of the army in a clear and scalable way.&lt;/p&gt;
+&lt;p&gt;Along the way, I also added a couple of core upgrades and continued stabilizing the cluster combat system.&lt;/p&gt;</description>
       
     </item>
     
@@ -27,9 +80,27 @@ Upgrade System Design The upgrade system is now fully implemented, with a struct
       
       <guid>https://roguephoton.com/posts/aoe-vfx-update/</guid>
       
-      <description>It’s been a while since the last dev log update. Over the past couple of months, development continued steadily, but most of the work landed in areas that didn’t immediately translate into neat, post-sized milestones. This update is a good moment to summarize where things stand.
-The focus this time was on production feedback, visual polish, and introducing the first active AoE ability.
-Production Feedback &amp;amp; VFX Unit production now has dedicated visual effects, making it clearer which unit is being created when production starts.</description>
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;p&gt;It’s been a while since the last dev log update. Over the past couple of months, development continued steadily,
+but most of the work landed in areas that didn’t immediately translate into neat, post-sized milestones.
+This update is a good moment to summarize where things stand.&lt;/p&gt;</description>
       
     </item>
     
@@ -40,8 +111,27 @@ Production Feedback &amp;amp; VFX Unit production now has dedicated visual effec
       
       <guid>https://roguephoton.com/posts/refining-cluster-combat/</guid>
       
-      <description>Over the past two weeks, most of my development time has been dedicated to refining the cluster combat system. Since this mechanic forms one of the core foundations of the game, I wanted to ensure its behavior, pacing, and internal logic were solid before building further systems on top of it.
-The work ended up being more extensive than expected, but the system is now in a state I’m genuinely satisfied with.</description>
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;p&gt;Over the past two weeks, most of my development time has been dedicated to refining the cluster combat system.
+Since this mechanic forms one of the core foundations of the game, I wanted to ensure its behavior, pacing, and
+internal logic were solid before building further systems on top of it.&lt;/p&gt;</description>
       
     </item>
     
@@ -52,8 +142,29 @@ The work ended up being more extensive than expected, but the system is now in a
       
       <guid>https://roguephoton.com/posts/cluster-combat-plus/</guid>
       
-      <description>First weeks on the &amp;ldquo;polish phase&amp;rdquo; I focused on making combat more readable and adding more life to the battlefield. There’s also a major new system - cluster combat - that changes how engagements play out.
-Destruction Effects When a die takes lethal damage, it now shatters into smaller fragments. In fact all models have their own set of fragments so the shattering in slow motion looks exactly like a dice falling apart.</description>
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;p&gt;First weeks on the &amp;ldquo;polish phase&amp;rdquo; I focused on making combat more readable and adding more life to the battlefield. There’s also a major new system - cluster combat - that changes how engagements play out.&lt;/p&gt;
+&lt;h2 id=&#34;destruction-effects&#34;&gt;Destruction Effects&lt;/h2&gt;
+&lt;p&gt;When a die takes lethal damage, it now shatters into smaller fragments.
+In fact all models have their own set of fragments so the shattering in slow motion looks exactly like a dice falling apart.
+Probably impossible to notice when playing on a map with 100+ units but I couldn&amp;rsquo;t help myself&amp;hellip;&lt;/p&gt;</description>
       
     </item>
     
@@ -64,8 +175,28 @@ Destruction Effects When a die takes lethal damage, it now shatters into smaller
       
       <guid>https://roguephoton.com/posts/tech-tree-upgrades/</guid>
       
-      <description>This update marks a big step for the &amp;ldquo;Die Commander&amp;rdquo;: the foundation of the tech tree is finally in place. Research, fusion and upgrades are now connected, the strategic layer of the game is starting to take shape.
-Fusion A new fusion system lets you combine dice into more specialized units. By fusing a D4 and D6, you can create a D5 Researcher, a new type of unit that can unlock small set of upgrades.</description>
+      <description>&lt;p&gt;This update marks a big step for the &amp;ldquo;Die Commander&amp;rdquo;: the foundation of the tech tree is finally in place. Research, fusion and upgrades are now connected, the strategic layer of the game is starting to take shape.&lt;/p&gt;
+&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;fusion&#34;&gt;Fusion&lt;/h2&gt;
+&lt;p&gt;A new fusion system lets you combine dice into more specialized units.
+By fusing a D4 and D6, you can create a D5 Researcher, a new type of unit that can unlock small set of upgrades.&lt;/p&gt;</description>
       
     </item>
     
@@ -76,8 +207,27 @@ Fusion A new fusion system lets you combine dice into more specialized units. By
       
       <guid>https://roguephoton.com/posts/fow-minimap-ai/</guid>
       
-      <description>This devlog is a big milestone for my dice-based RTS project: adding Fog of War, a minimap, and the very first version of an Enemy AI. These features finally make the game feel like a “real” RTS in motion.
-Fog of War I&amp;rsquo;ve use an existing implementation of Fog of War system. Areas of the map that are not in the line of sight of your units are darkened. This implementation allows for obstacles to block the line of sight (not sure if this will stay in the final version).</description>
+      <description>&lt;p&gt;This devlog is a big milestone for my dice-based RTS project: adding &lt;strong&gt;Fog of War&lt;/strong&gt;, a &lt;strong&gt;minimap&lt;/strong&gt;, and the very first version of an &lt;strong&gt;Enemy AI&lt;/strong&gt;. These features finally make the game feel like a “real” RTS in motion.&lt;/p&gt;
+&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;fog-of-war&#34;&gt;Fog of War&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve use an existing implementation of &lt;strong&gt;Fog of War&lt;/strong&gt; system. Areas of the map that are not in the line of sight of your units are darkened. This implementation allows for obstacles to block the line of sight (not sure if this will stay in the final version). Also the Fog of War system provides information about which units should disappear when not in sight. I had to make some adjustments but all credits go to the original author - StupaSoft: &lt;a href=&#34;https://objectorientedlife.github.io/game%20project/FOVMapping1/&#34;&gt;https://objectorientedlife.github.io/game%20project/FOVMapping1/&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -88,9 +238,26 @@ Fog of War I&amp;rsquo;ve use an existing implementation of Fog of War system. A
       
       <guid>https://roguephoton.com/posts/core-rts-features/</guid>
       
-      <description>Recen work on the &amp;ldquo;Die Commander&amp;rdquo; was a mix of performance upgrades, UI improvements, and core gameplay systems.
-Some of it makes the game run smoother, some of it adds polish for the player — and some of it involved tearing down half the codebase and putting it back together again.
-Pathfinding Optimisation When controlling a lot of units, my old pathfinding approach would try to calculate every path at the same time, which could cause frame drops.</description>
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;p&gt;Recen work on the &amp;ldquo;Die Commander&amp;rdquo; was a mix of performance upgrades, UI improvements, and core gameplay systems.&lt;br&gt;
+Some of it makes the game run smoother, some of it adds polish for the player — and some of it involved tearing down half the codebase and putting it back together again.&lt;/p&gt;</description>
       
     </item>
     
@@ -101,8 +268,9 @@ Pathfinding Optimisation When controlling a lot of units, my old pathfinding app
       
       <guid>https://roguephoton.com/posts/coding-and-debugging/</guid>
       
-      <description>This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&amp;rsquo;s not much new to show visually.
-UI Planning (And Reworking Camera Controls) My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &amp;ldquo;produce unit&amp;rdquo; button — which worked fine for a time.</description>
+      <description>&lt;p&gt;This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&amp;rsquo;s not much new to &lt;em&gt;show&lt;/em&gt; visually.&lt;/p&gt;
+&lt;h2 id=&#34;ui-planning-and-reworking-camera-controls&#34;&gt;UI Planning (And Reworking Camera Controls)&lt;/h2&gt;
+&lt;p&gt;My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &amp;ldquo;produce unit&amp;rdquo; button — which worked fine for a time.&lt;/p&gt;</description>
       
     </item>
     
@@ -113,9 +281,20 @@ UI Planning (And Reworking Camera Controls) My original UI was pretty simple: it
       
       <guid>https://roguephoton.com/posts/unit-production/</guid>
       
-      <description>Unit production update I&amp;rsquo;ve made some serious progress on the core gameplay systems of Die Commander, and today I’m excited to share the first working version of unit production—a system that brings life, growth, and strategic depth to your ever-evolving armies of dice.
-As a reminder, in this game, dice are your units. Each die represents a different unit tier, currently including:
-D4 (worker class) D6 D8 D10 D12 Due to a mix of time constraints (making building models take time!</description>
+      <description>&lt;h3 id=&#34;unit-production-update&#34;&gt;Unit production update&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve made some serious progress on the core gameplay systems of Die Commander, and today I’m excited to share
+the first working version of unit production—a system that brings life, growth, and strategic depth to
+your ever-evolving armies of dice.&lt;/p&gt;
+&lt;p&gt;As a reminder, in this game, dice are your units. Each die represents a different unit tier, currently including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D4 (worker class)&lt;/li&gt;
+&lt;li&gt;D6&lt;/li&gt;
+&lt;li&gt;D8&lt;/li&gt;
+&lt;li&gt;D10&lt;/li&gt;
+&lt;li&gt;D12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Due to a mix of time constraints (making building models take time!) and my irrepressible imagination,
+I’ve turned the dice themselves into the production system. Here’s how it works:&lt;/p&gt;</description>
       
     </item>
     
@@ -126,8 +305,51 @@ D4 (worker class) D6 D8 D10 D12 Due to a mix of time constraints (making buildin
       
       <guid>https://roguephoton.com/posts/resources-update/</guid>
       
-      <description>Core functionality After countless hours of hard work and coffees drunk I finally managed to get the gathering-depositing cycle to work.
-Worker unit type. &amp;ldquo;Gatherable&amp;rdquo; resources (currently only &amp;ldquo;gold&amp;rdquo; as a placeholder resource type). Worker unit specific actions: Gathering resources Depositing resources Remembering where the base and the mine are High IQ worker brain allowing workers to remember the whole gather-deposit cycle. &amp;ldquo;Sidequest&amp;rdquo; basic UI system to show available &amp;ldquo;gold&amp;rdquo; and verify that it&amp;rsquo;s getting deposited.</description>
+      <description>&lt;h3 id=&#34;core-functionality&#34;&gt;Core functionality&lt;/h3&gt;
+&lt;p&gt;After countless hours of hard work and coffees drunk I finally
+managed to get the gathering-depositing cycle to work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Worker unit type.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Gatherable&amp;rdquo; resources (currently only &amp;ldquo;gold&amp;rdquo; as a placeholder resource type).&lt;/li&gt;
+&lt;li&gt;Worker unit specific actions:
+&lt;ul&gt;
+&lt;li&gt;Gathering resources&lt;/li&gt;
+&lt;li&gt;Depositing resources&lt;/li&gt;
+&lt;li&gt;Remembering where the base and the mine are&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;High IQ worker brain allowing workers to remember the whole gather-deposit cycle.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Sidequest&amp;rdquo; basic UI system to show available &amp;ldquo;gold&amp;rdquo; and verify that it&amp;rsquo;s getting deposited.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;!-- Desktop (landscape) version --&gt;
+&lt;video class=&#34;video-desktop&#34; autoplay loop muted playsinline width=&#34;800&#34;&gt;
+  &lt;source src=&#34;https://roguephoton.com/videos/Workers_resources_014.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;!-- Mobile (portrait) version --&gt;
+&lt;video class=&#34;video-mobile&#34; autoplay loop muted playsinline width=&#34;300&#34;&gt;
+  &lt;source src=&#34;https://roguephoton.com/videos/Workers_resources_014.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;I had to use cube placeholders for the base and &amp;ldquo;gold mine&amp;rdquo;.&lt;/p&gt;</description>
       
     </item>
     
@@ -138,8 +360,44 @@ Worker unit type. &amp;ldquo;Gatherable&amp;rdquo; resources (currently only &am
       
       <guid>https://roguephoton.com/posts/combat-update/</guid>
       
-      <description>Base functionality I&amp;rsquo;m happy to announce that the combat system is now functional.
-Units can deal damage Units can take damage In other words: a die may die&amp;hellip; [I&amp;rsquo;ll let myself out] Your browser does not support the video tag. Your browser does not support the video tag. No health bars or visual effects yet just destroying the unit after it dies. Left the blue path indicators and white placeholder effect for attacks (to at least see the attack rate).</description>
+      <description>&lt;h3 id=&#34;base-functionality&#34;&gt;Base functionality&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m happy to announce that the combat system is now functional.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Units can deal damage&lt;/li&gt;
+&lt;li&gt;Units can take damage&lt;/li&gt;
+&lt;li&gt;In other words: a die may die&amp;hellip; [I&amp;rsquo;ll let myself out]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;!-- Desktop (landscape) version --&gt;
+&lt;video class=&#34;video-desktop&#34; autoplay loop muted playsinline width=&#34;800&#34;&gt;
+  &lt;source src=&#34;https://roguephoton.com/videos/Movie_002.webm&#34; type=&#34;video/webm&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;!-- Mobile (portrait) version --&gt;
+&lt;video class=&#34;video-mobile&#34; autoplay loop muted playsinline width=&#34;300&#34;&gt;
+  &lt;source src=&#34;https://roguephoton.com/videos/Movie_002.webm&#34; type=&#34;video/webm&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;No health bars or visual effects yet just destroying the unit after it dies.
+Left the blue path indicators and white placeholder effect for attacks (to at least
+see the attack rate).&lt;/p&gt;</description>
       
     </item>
     
@@ -150,10 +408,47 @@ Units can deal damage Units can take damage In other words: a die may die&amp;he
       
       <guid>https://roguephoton.com/posts/pathfinding-update/</guid>
       
-      <description>Core RTS features I&amp;rsquo;m sharing progress related to most essential RTS features:
-Unit selection Unit movement Physics interaction Your browser does not support the video tag. As shown in the video - the units can choose the correct path to their destination.
-Challanges Already at this stage due to the unique idea of relying on physics for unit movement I had to solve some issues:
-[problem] The units are terribly slow if using only torque for movement.</description>
+      <description>&lt;h3 id=&#34;core-rts-features&#34;&gt;Core RTS features&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m sharing progress related to most essential RTS features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unit selection&lt;/li&gt;
+&lt;li&gt;Unit movement&lt;/li&gt;
+&lt;li&gt;Physics interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;video autoplay loop muted playsinline width=&#34;600&#34;&gt;
+  &lt;source src=&#34;https://roguephoton.com/videos/DiceW3a.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;p&gt;As shown in the video - the units can choose the correct path to their destination.&lt;/p&gt;
+&lt;h3 id=&#34;challanges&#34;&gt;Challanges&lt;/h3&gt;
+&lt;p&gt;Already at this stage due to the unique idea of relying on physics for unit movement
+I had to solve some issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[problem] The units are terribly slow if using only torque for movement.
+&lt;ul&gt;
+&lt;li&gt;[solution] After a short delay also an external force is applied directly in the movement direction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[problem] The units overshoot their destinations. This is obvious; there&amp;rsquo;s no logic yet that would
+tell the unit that it&amp;rsquo;s getting closer to the destination.
+&lt;ul&gt;
+&lt;li&gt;[solution] Added slowing-down action when nearing the destination&lt;/li&gt;
+&lt;li&gt;[solution] Added a &amp;ldquo;check overshoot&amp;rdquo; method which is triggered if a unit is too far off from it&amp;rsquo;s
+original destination. In such case the path is recalculated and movement is restarted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[problem] The units can get redirected and &amp;ldquo;fall from a cliff&amp;rdquo;. This is specific for this map template (2 heigth levels) -
+the path is not recalculated automatically so the dice will try to take the shortest route to the nearest path turn - even
+if it&amp;rsquo;s a vertical wall.
+&lt;ul&gt;
+&lt;li&gt;[solution] Temporarily add more torque so that dice will &amp;ldquo;climb&amp;rdquo; up the wall and never get stuck.&lt;/li&gt;
+&lt;li&gt;[not implemented solution] Recalculate path when Y position changes - just an idea for now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have added visual indicator of the calculated path. My initial idea was to
+use it just to show how pathfinding works but it actually was quite difficult.
+I&amp;rsquo;ll keep it as it may be usefull for some future feature.&lt;/p&gt;</description>
       
     </item>
     
@@ -164,9 +459,17 @@ Challanges Already at this stage due to the unique idea of relying on physics fo
       
       <guid>https://roguephoton.com/posts/die-commander/</guid>
       
-      <description>Hi, I&amp;rsquo;m Rogue Photon – Solo Game Developer Welcome to my devlog! I&amp;rsquo;m a self-taught developer/physicist/musician working on a number of projects. Recently I&amp;rsquo;m building [Die Commander] (&amp;ldquo;Die&amp;rdquo; as a singular of dice, working title), a physics-based RTS where dice aren&amp;rsquo;t just tools – they&amp;rsquo;re your units.
-In this blog I will write updates about the game&amp;rsquo;s development, from prototype to (hopefully) release. Expect posts about:
-Core features of most RTS games adjusted to my needs Behind-the-scenes struggles Requests for help in the decision making The Core Mechanic: Dice as Units At the heart of [Die Commander] lies a simple but deadly premise: your units are dice, and their combat relies entirely on physics-based rolls.</description>
+      <description>&lt;h3 id=&#34;hi-im-rogue-photon--solo-game-developer&#34;&gt;Hi, I&amp;rsquo;m Rogue Photon – Solo Game Developer&lt;/h3&gt;
+&lt;p&gt;Welcome to my devlog! I&amp;rsquo;m a self-taught developer/physicist/musician working on a number of projects. Recently I&amp;rsquo;m  building &lt;strong&gt;[Die Commander]&lt;/strong&gt; (&amp;ldquo;Die&amp;rdquo; as a singular of dice, working title), a physics-based RTS where dice aren&amp;rsquo;t just tools – they&amp;rsquo;re your &lt;em&gt;units&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In this blog I will write updates about the game&amp;rsquo;s development, from prototype to (hopefully) release. Expect posts about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Core features of most RTS games adjusted to my needs&lt;/li&gt;
+&lt;li&gt;Behind-the-scenes struggles&lt;/li&gt;
+&lt;li&gt;Requests for help in the decision making&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-core-mechanic-dice-as-units&#34;&gt;The Core Mechanic: Dice as Units&lt;/h3&gt;
+&lt;p&gt;At the heart of &lt;strong&gt;[Die Commander]&lt;/strong&gt; lies a simple but deadly premise: &lt;strong&gt;your units are dice&lt;/strong&gt;, and their combat relies entirely on physics-based rolls.&lt;/p&gt;</description>
       
     </item>
     
@@ -177,14 +480,14 @@ Core features of most RTS games adjusted to my needs Behind-the-scenes struggles
       
       <guid>https://roguephoton.com/about/</guid>
       
-      <description>Solo game developer.
-Passionate for making and playing games.
-Degree in theoretical physics.
-Write my own code.
-Make my own music.
-Make my own models.
-Make my own coffee.
-Make the magic happen.</description>
+      <description>&lt;p&gt;Solo game developer.&lt;br&gt;
+Passionate for making and playing games.&lt;br&gt;
+Degree in theoretical physics.&lt;br&gt;
+Write my own code.&lt;br&gt;
+Make my own music.&lt;br&gt;
+Make my own models.&lt;br&gt;
+Make my own coffee.&lt;br&gt;
+Make the magic happen.&lt;/p&gt;</description>
       
     </item>
     

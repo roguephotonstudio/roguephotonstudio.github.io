@@ -14,8 +14,9 @@
       
       <guid>https://roguephoton.com/posts/coding-and-debugging/</guid>
       
-      <description>This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&amp;rsquo;s not much new to show visually.
-UI Planning (And Reworking Camera Controls) My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &amp;ldquo;produce unit&amp;rdquo; button — which worked fine for a time.</description>
+      <description>&lt;p&gt;This week’s work turned out to be less about features and more about systems. From UI planning to debugging some stubborn worker unit behavior, the week was full of behind-the-scenes improvements — even if there&amp;rsquo;s not much new to &lt;em&gt;show&lt;/em&gt; visually.&lt;/p&gt;
+&lt;h2 id=&#34;ui-planning-and-reworking-camera-controls&#34;&gt;UI Planning (And Reworking Camera Controls)&lt;/h2&gt;
+&lt;p&gt;My original UI was pretty simple: it displayed selected unit count and available resources. After implementing unit production, I added a contextual &amp;ldquo;produce unit&amp;rdquo; button — which worked fine for a time.&lt;/p&gt;</description>
       
     </item>
     

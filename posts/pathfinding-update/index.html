@@ -68,7 +68,7 @@
     </script>
 
 
-<meta name="generator" content="Hugo 0.126.2">
+<meta name="generator" content="Hugo 0.152.2">
 
     
     <meta property="og:url" content="https://roguephoton.com/posts/pathfinding-update/">
@@ -77,7 +77,7 @@
   <meta property="og:description" content="Core RTS features I’m sharing progress related to most essential RTS features:
 Unit selection Unit movement Physics interaction Your browser does not support the video tag. As shown in the video - the units can choose the correct path to their destination.
 Challanges Already at this stage due to the unique idea of relying on physics for unit movement I had to solve some issues:
-[problem] The units are terribly slow if using only torque for movement.">
+[problem] The units are terribly slow if using only torque for movement. [solution] After a short delay also an external force is applied directly in the movement direction. [problem] The units overshoot their destinations. This is obvious; there’s no logic yet that would tell the unit that it’s getting closer to the destination. [solution] Added slowing-down action when nearing the destination [solution] Added a “check overshoot” method which is triggered if a unit is too far off from it’s original destination. In such case the path is recalculated and movement is restarted. [problem] The units can get redirected and “fall from a cliff”. This is specific for this map template (2 heigth levels) - the path is not recalculated automatically so the dice will try to take the shortest route to the nearest path turn - even if it’s a vertical wall. [solution] Temporarily add more torque so that dice will “climb” up the wall and never get stuck. [not implemented solution] Recalculate path when Y position changes - just an idea for now. I have added visual indicator of the calculated path. My initial idea was to use it just to show how pathfinding works but it actually was quite difficult. I’ll keep it as it may be usefull for some future feature.">
   <meta property="og:locale" content="en_gb">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -92,7 +92,7 @@ Challanges Already at this stage due to the unique idea of relying on physics fo
   <meta name="twitter:description" content="Core RTS features I’m sharing progress related to most essential RTS features:
 Unit selection Unit movement Physics interaction Your browser does not support the video tag. As shown in the video - the units can choose the correct path to their destination.
 Challanges Already at this stage due to the unique idea of relying on physics for unit movement I had to solve some issues:
-[problem] The units are terribly slow if using only torque for movement.">
+[problem] The units are terribly slow if using only torque for movement. [solution] After a short delay also an external force is applied directly in the movement direction. [problem] The units overshoot their destinations. This is obvious; there’s no logic yet that would tell the unit that it’s getting closer to the destination. [solution] Added slowing-down action when nearing the destination [solution] Added a “check overshoot” method which is triggered if a unit is too far off from it’s original destination. In such case the path is recalculated and movement is restarted. [problem] The units can get redirected and “fall from a cliff”. This is specific for this map template (2 heigth levels) - the path is not recalculated automatically so the dice will try to take the shortest route to the nearest path turn - even if it’s a vertical wall. [solution] Temporarily add more torque so that dice will “climb” up the wall and never get stuck. [not implemented solution] Recalculate path when Y position changes - just an idea for now. I have added visual indicator of the calculated path. My initial idea was to use it just to show how pathfinding works but it actually was quite difficult. I’ll keep it as it may be usefull for some future feature.">
 
 
     
@@ -123,9 +123,6 @@ Challanges Already at this stage due to the unique idea of relying on physics fo
 
     
     
-  
-
-
     
 
     
