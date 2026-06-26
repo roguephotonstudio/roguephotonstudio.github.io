@@ -6,7 +6,38 @@
     <description>Recent content in Posts on Rogue Photon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 May 2026 18:52:09 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jun 2026 11:36:59 +0200</lastBuildDate><atom:link href="https://roguephoton.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early Polish Stage</title>
+      <link>https://roguephoton.com/posts/early-polish-stage/</link>
+      <pubDate>Fri, 26 Jun 2026 11:36:59 +0200</pubDate>
+      
+      <guid>https://roguephoton.com/posts/early-polish-stage/</guid>
+      
+      <description>&lt;style&gt;
+  .video-mobile {
+    display: none;
+  }
+
+  .video-desktop {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .video-desktop {
+      display: none;
+    }
+    .video-mobile {
+      display: block;
+    }
+  }
+&lt;/style&gt;
+&lt;h1 id=&#34;from-prototype-to-game&#34;&gt;From Prototype to Game&lt;/h1&gt;
+&lt;p&gt;With the core gameplay systems now firmly established, I&amp;rsquo;m shifting my focus towards crafting an engaging presentation. In order to release a public demo, I&amp;rsquo;ve analyzed what&amp;rsquo;s required and am concentrating on these key elements.&lt;/p&gt;
+&lt;p&gt;This update is tricky as a lot is happening behind the scenes, what I can already share is mostly about establishing the game&amp;rsquo;s visual identity and aesthetic direction.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Mobile Bases &amp; Balance Update</title>
       <link>https://roguephoton.com/posts/mobile-bases/</link>
